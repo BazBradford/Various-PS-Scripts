@@ -1,0 +1,1 @@
+Get-ADGroup -Filter {GroupCategory -eq 'security'} | Export-Csv C:\users\barry.bradford\Desktop\new.csv
